@@ -53,7 +53,7 @@ void SocketIoClient::onMessageCallback(WebsocketsMessage message) {
 	}
 	if (message.isBinary()) {
 		SOCKETIOCLIENT_DEBUG("[SIoC] get binary length: %u\n", message.length());
-		//hexdump((uint32_t*) payload, length);
+		//hexdump((const uint32_t*) payload, length);
 	}
 	if (message.isPong()) {
 		SOCKETIOCLIENT_DEBUG("Got a Pong!");
