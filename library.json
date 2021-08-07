@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "name": "ArduinoSocketIo",
+  "keywords": "wifi, http, web, server, tcp, client, websocket, socket.io",
+  "description": "socket.io Client and Server library for Arduino based on gilmaimon/ArduinoWebsockets",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Basttyy/AduinoSocketIo.git"
+  },
+  "exclude": "tests",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "authors":
+  {
+    "name": "Abdulbasit Mamman",
+    "url": "https://github.com/basttyy",
+    "maintainer": true
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Basttyy/AduinoSocketIo.git",
+  "dependencies" :
+	[
+		{
+			"name": "ArduinoWebsockets",
+			"version": "0.5.2"
+		}
+	]  
+}
