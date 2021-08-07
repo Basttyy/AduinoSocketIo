@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.1",
   "name": "ArduinoSocketIo",
   "keywords": "wifi, http, web, server, tcp, client, websocket, socket.io",
   "description": "socket.io Client and Server library for Arduino based on gilmaimon/ArduinoWebsockets",
